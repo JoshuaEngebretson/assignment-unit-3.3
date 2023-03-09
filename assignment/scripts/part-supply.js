@@ -24,14 +24,14 @@ console.log(supplyChanges[1]);
 //    array & console.log the value removed.
 console.log('4. Removed item:');
 
-let removed_item=supplyChanges.pop();
+let removed_item = supplyChanges.pop();
 console.log(removed_item);
 console.log(supplyChanges);
 
 // 5. A delivery of 25 more parts arrived. Add the value 25 to the end of the array
 console.log('5. Adding 25 to supplyChanges.');
 
-supplyChanges.push(25)
+supplyChanges.push(25);
 console.log(supplyChanges);
 
 // 6. Write a `for` loop that shows each value in the 'supplyChanges' array
@@ -70,14 +70,14 @@ for(item of supplyChanges){
 //    adding up all the numbers in the 'supplyChanges' array.
 console.log('8. Total supplies available is:');
 
-let totalSupply=0
-let x=0
+let totalSupply = 0
+let x = 0
 console.log('We start with', totalSupply, 'parts');
 while (x < supplyChanges.length) {
-    totalSupply+=supplyChanges[x]
-    if (supplyChanges[x]>0) {
+    totalSupply += supplyChanges[x]
+    if (supplyChanges[x] > 0) {
         console.log('We added', supplyChanges[x], 'parts. We now have', totalSupply, 'parts.');
-    } else if (supplyChanges[x]<0) {
+    } else if (supplyChanges[x] < 0) {
         console.log('We removed', supplyChanges[x], 'parts. We now have', totalSupply, 'parts.');
     } else {
         console.log('There was no change. We still have', totalSupply, 'parts.');
@@ -98,7 +98,7 @@ let largeStash_parts=572
 console.log('We have', largeStash_parts, 'parts. Each box holds 7 parts. If we fill each box, how many boxes will we fill and how many parts will be left over?');
 let totalBoxes=0
 while (largeStash_parts >= 7) {
-    largeStash_parts-=7
+    largeStash_parts -= 7
     totalBoxes++
 }
 console.log('We filled,', totalBoxes, 'and have', largeStash_parts, 'parts left over.');
