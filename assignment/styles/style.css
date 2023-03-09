@@ -8,11 +8,11 @@ body {
   }
   
   @keyframes bodycolor {
-    0% {background-color: #ff0000;}
-    16% {background-color: #ffa500;}
-    33% {background-color: #ffff00;}
-    50% {background-color: #008000;}
-    67% {background-color: #0000ff;}
-    84% {background-color: #4b0082;}
-    100% {background-color: #ee82ee;}
+    0% {background-color: #E40303;}
+    16% {background-color: #FF8C00;}
+    33% {background-color: #FFED00;}
+    50% {background-color: #008026;}
+    67% {background-color: #24408E;}
+    84% {background-color: #732982;}
+    100% {background-color: #E40303;}
   }
